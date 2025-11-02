@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-const SERVER_BASE_URL = "http://localhost:7000"; // Use localhost for development
+const SERVER_BASE_URL = "https://healthcare-app-with-login.vercel.app/"; // Use localhost for development
 
 // Accept user data and logout function as props
 function MainApp({ user, onLogout }) { 

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const SERVER_BASE_URL = "http://localhost:7000"; // Use localhost for development
+const SERVER_BASE_URL = "https://healthcare-app-with-login.vercel.app/"; // Use localhost for development
 
 const Login = ({ onLoginSuccess, onSwitchToRegister }) => {
     const [formData, setFormData] = useState({

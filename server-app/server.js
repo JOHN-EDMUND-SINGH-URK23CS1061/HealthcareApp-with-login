@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Use environment variable for MongoDB connection string
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/healthcare";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // 1. Connect to MongoDB
 mongoose.connect(MONGODB_URI)

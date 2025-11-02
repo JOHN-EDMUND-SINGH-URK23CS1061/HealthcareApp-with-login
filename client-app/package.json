@@ -27,6 +27,6 @@
     "globals": "^16.4.0"
   },
   "overrides": {
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "^5.3.3"
   }
 }
